@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+    .top-nav ul{
+       width: 70%;
+    }
+    .btn{
+        margin-left: 500px;
+    }
+    .last-side input{
+        margin-left: 400px;
+    }
+}
+@media screen and(min-width: 1000px) {
+    .last-side input{
+        margin-left: 300px;
+    }
+    .btn{
+        margin-left: 450px;}
+}
+@media screen and(min-width: 900px) {
+    .last-side input{
+        margin-left: 250px;
+    }
+    .btn{
+        margin-left: 400px;}
+}
+@media screen and(min-width: 800px) {
+    .last-side input{
+        margin-left: 200px;
+    }
+    .btn{
+        margin-left: 350px;}
+}

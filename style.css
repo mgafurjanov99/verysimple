@@ -1,0 +1,242 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{max-width: 1200px; margin: 0 auto;}
+ul{list-style: none;}
+a{text-decoration: none; color: #fff;}
+
+.text-center{text-align: center;}
+h1{font-weight: bold; font-size: 22px;}
+header{
+    background: url(bg-5.jpg) no-repeat center;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    color: #eee;
+}
+.back{
+    width: 100%;
+    height: 650px;
+    background-color: #00000046;
+}
+.top-nav {
+    width: 100%;
+    height: 80px;
+    background-color: #00000031;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: fixed;
+    
+}
+
+.hero{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.hero h1{
+    padding-top: 200px;
+}
+.hero p{
+    padding: 15px 0;
+    color: #c4c4c4;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.logo{font-size: 30px;
+    font-weight: bold;}
+.top-nav ul
+{display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 45%;
+    color: #fff;
+    margin-right: 10px;
+}  
+.top-nav ul li :hover{
+    color: rgb(201, 196, 196);
+}  
+mark{
+    padding: 10px 15px;
+    background-color: rgb(38, 238, 12);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 16px;
+    color: rgb(255, 255, 255);
+background: rgb(4, 111, 250);
+border-radius: 3px;
+border: none;
+text-align: center;
+margin-left: 600px;
+}
+
+.button:hover{color: #fff;
+    background: rgb(177, 178, 241);}
+.best-h1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    position: relative;
+    font-size: 1.5rem;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-top: 40px;
+
+}
+.box{
+    text-align: center;
+    margin: 50px;
+    gap: 20px;
+}
+.box i{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.box p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box h1{
+    font-size: 25px solid;
+    text-transform: uppercase;
+}
+.services :first-child i {
+    color: rgb(248, 34, 34);
+}
+.services :nth-child(2) i{
+    color: rgb(65, 65, 250);
+}
+.services :nth-child(3) i{
+    color: rgb(203, 219, 57);
+}
+.services :nth-child(4) i{
+color: turquoise;
+}
+.services :nth-child(5) i{
+    color: purple;
+}
+.services :nth-child(6) i{
+    color: green;
+}
+.unit{
+    background: url(bg-4.jpg);
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    background-attachment: fixed;
+    
+}
+.filter{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: rgb(173, 169, 169);
+    text-align: center;
+    
+}
+.unit i{
+    color: rgb(55, 134, 236);
+    font-size: 1.5rem;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.unit p{
+    font-size: 15px;
+    
+}
+.secondp{
+    color: rgb(112, 110, 110);
+    margin-top: 20px;
+}
+.third-content{
+    width: 80%;
+    height: 400px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+.third-content h1{
+    margin-top: 100px;
+}
+.names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 50px;
+}
+.names input{
+width: 100%;
+height: 40px;
+}
+textarea{
+    width: 100%;
+}
+.third-content p{
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.last-side input {
+    color: #fff;
+    background-color: rgb(26, 95, 141);
+    width: 120px;
+    height: 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 480px;
+}
+.last-side input:hover{
+    background-color: grey;
+}
+footer{
+    background-color: rgba(240, 234, 234, 0.534);
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 170px;
+}
+footer div{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.foot i{
+    margin: 10px;
+    margin-top: 80px;
+    font-size: 1.3rem;
+}
+.address p{
+    margin-top: 20px;
+}
+.forum p{
+margin-top: 20px;
+font-size: 15px;
+}
+.forum input{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(91, 102, 102);
+    color: rgb(236, 230, 230);
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.forum input:hover{
+    background-color: green;
+    color: lightyellow;
+}
+.final{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    
+}
